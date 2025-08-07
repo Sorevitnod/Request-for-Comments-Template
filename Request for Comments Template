@@ -1,0 +1,41 @@
+## Context
+The document must to be anchored in space and time. When someone stumbles across this document in two years, the header should give them enough context to decide whether it’s relevant to whatever they’re searching for. 
+### Title: 
+Give the document a clear and concise title.
+### Author's Name: 
+Include the name of the person or team responsible for the RFC.
+### Date: 
+Include at least one date, such as "created on" or "last updated on."
+### Document Status: 
+Indicate the status of the document, such as early idea, open for review, superseded by another document, being implemented, completed, or on hold. Follow the ADR structure here.
+
+## Goals
+### Purpose or Objective
+Clearly state the problem you are trying to solve or the opportunity you are trying to take advantage of.
+
+Provide enough information for readers to assess whether you are addressing the right problem.
+
+### Design
+- Describe how you intend to achieve the goals stated in Section 2.
+- Include sufficient details for readers to evaluate whether your solution will work.
+- Use appropriate formats (e.g., narrative, bullet points, subsections) to effectively convey information.
+- Depending on your specific needs, this section may include API details, pseudocode or code snippets, architectural diagrams, data models, wireframes or screenshots, process steps, component relationships, organizational charts, vendor costs, and dependencies on other systems.
+
+### Security/Privacy/Compliance
+- Identify what needs protection and from whom.
+- Address any security concerns related to user data collection or access points.
+- Explain how keys or passwords will be stored securely.
+- Consider both insider and external threats and outline protective measures.
+
+### Alternatives Considered/Prior Art
+- Discuss alternative approaches or solutions that have been considered.
+- Demonstrate that you have thoroughly evaluated options beyond your proposed solution.
+- Justify why simpler solutions or existing products may not be suitable.
+*Note: If there is an existing internal solution that could address the problem but is **not** chosen, the RFC author should share the new design with the owners of that system for their feedback.*
+
+### Additional Helpful Sections (Optional)
+- Budget/Cost Analysis: Include a section on the estimated budget or costs associated with implementing the proposed solution.
+- Timeline/Project Plan: Provide a timeline or project plan outlining key milestones and deliverables.
+- Stakeholders/Impacted Parties: Identify individuals or teams who will be affected by or involved in the implementation of the RFC.
+
+Remember, it is better to be wrong or controversial than vague. Use active verbs and avoid passive voice.
